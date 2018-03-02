@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+            <item
+                android:title="opcion1"
+                android:id="@+id/opcion1"
+                app:showAsAction="never" />
+
+            <item
+                android:title="opcion2"
+                android:id="@+id/opcion2"
+                app:showAsAction="never"/>
+
+            <item
+                android:title="opcion3"
+                android:id="@+id/opcion3"
+                app:showAsAction="never"/>
+
+
+
+
+
+
+
+
+    <item
+        android:id="@+id/buscar"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="search"/>
+
+    <item
+        android:id="@+id/favorito"
+        android:icon="@drawable/ic_favorite_white_24dp"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="2"
+        android:title="favoritos" />
+
+
+
+
+</menu>
