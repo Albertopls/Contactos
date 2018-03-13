@@ -47,7 +47,7 @@ public class AdapterListview extends ArrayAdapter<Item>{
 
         if (row==null)
         {
-            LayoutInflater inflater =((Activity)context).getLayoutInflater();
+            LayoutInflater inflater =LayoutInflater.from(context);
             row=inflater.inflate(resource,group,false);
             holderItems= new HolderItems();
             holderItems.imagen=(ImageView)row.findViewById(R.id.imagen);
